@@ -9,16 +9,17 @@
     cursor: pointer;
 }
 
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 512px){
     .navbtn {
         background-color: yellow;
+        display: block;
     }
 }
 
-@media only screen and (min-width: 481px) and (max-width: 1023px){
+@media only screen and (min-width: 513px) and (max-width: 1023px){
     .navbtn {
         background-color: blue;
-        /* display: block; */
+        display: block;
     }
 }
 
